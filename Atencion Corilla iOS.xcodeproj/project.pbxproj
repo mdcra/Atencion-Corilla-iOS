@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583CB4B8B09E08E42BD19E72 /* Pods_Atencion_Corilla_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC54E68C206905C3B30BFEA /* Pods_Atencion_Corilla_iOSTests.framework */; };
 		6E4C530F217CD0C0002CE7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C530E217CD0C0002CE7C1 /* AppDelegate.swift */; };
 		6E4C5311217CD0C0002CE7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C5310217CD0C0002CE7C1 /* ViewController.swift */; };
 		6E4C5314217CD0C0002CE7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C5312217CD0C0002CE7C1 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		6E4C5319217CD0C3002CE7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C5317217CD0C3002CE7C1 /* LaunchScreen.storyboard */; };
 		6E4C5324217CD0C3002CE7C1 /* Atencion_Corilla_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C5323217CD0C3002CE7C1 /* Atencion_Corilla_iOSTests.swift */; };
 		6E4C532F217CD0C3002CE7C1 /* Atencion_Corilla_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C532E217CD0C3002CE7C1 /* Atencion_Corilla_iOSUITests.swift */; };
+		6E973387217EC70100AE4834 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E973386217EC70100AE4834 /* ViewController2.swift */; };
+		6E973389217EC95900AE4834 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E973388217EC95900AE4834 /* ViewController3.swift */; };
+		6EAD4D1F217E2BBF0013D821 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD4D1E217E2BBF0013D821 /* GoogleService-Info.plist */; };
+		D54B1B703684C1EB3115D36E /* Pods_Atencion_Corilla_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0175C5C7215236EE00EAE1E7 /* Pods_Atencion_Corilla_iOSUITests.framework */; };
+		E221A6CE56A0F9089AB6CD7D /* Pods_Atencion_Corilla_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD1C7BB3295CC4405E412A5 /* Pods_Atencion_Corilla_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0175C5C7215236EE00EAE1E7 /* Pods_Atencion_Corilla_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atencion_Corilla_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBCEA9C19EC2F48D8717B15 /* Pods-Atencion Corilla iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOSTests/Pods-Atencion Corilla iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E4C530B217CD0C0002CE7C1 /* Atencion Corilla iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atencion Corilla iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4C530E217CD0C0002CE7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E4C5310217CD0C0002CE7C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		6E4C532A217CD0C3002CE7C1 /* Atencion Corilla iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atencion Corilla iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4C532E217CD0C3002CE7C1 /* Atencion_Corilla_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atencion_Corilla_iOSUITests.swift; sourceTree = "<group>"; };
 		6E4C5330217CD0C3002CE7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E973386217EC70100AE4834 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		6E973388217EC95900AE4834 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		6EAD4D1E217E2BBF0013D821 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EAF5DF368689F0BF9F7C0B7 /* Pods-Atencion Corilla iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOSTests/Pods-Atencion Corilla iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9EC526A8618F5C8A6F51DF /* Pods-Atencion Corilla iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7D1F655CD4F3EFB4DB31DC /* Pods-Atencion Corilla iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOSUITests/Pods-Atencion Corilla iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C441120F0674293C9ED25C63 /* Pods-Atencion Corilla iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOSUITests/Pods-Atencion Corilla iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDC54E68C206905C3B30BFEA /* Pods_Atencion_Corilla_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atencion_Corilla_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE3E3750DF846967FCF120 /* Pods-Atencion Corilla iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atencion Corilla iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FBD1C7BB3295CC4405E412A5 /* Pods_Atencion_Corilla_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atencion_Corilla_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E221A6CE56A0F9089AB6CD7D /* Pods_Atencion_Corilla_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583CB4B8B09E08E42BD19E72 /* Pods_Atencion_Corilla_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54B1B703684C1EB3115D36E /* Pods_Atencion_Corilla_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3155D4832D96394C1B15BF5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1C7BB3295CC4405E412A5 /* Pods_Atencion_Corilla_iOS.framework */,
+				CDC54E68C206905C3B30BFEA /* Pods_Atencion_Corilla_iOSTests.framework */,
+				0175C5C7215236EE00EAE1E7 /* Pods_Atencion_Corilla_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577EBA7E740AE8558B1E841D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA9EC526A8618F5C8A6F51DF /* Pods-Atencion Corilla iOS.debug.xcconfig */,
+				F0BE3E3750DF846967FCF120 /* Pods-Atencion Corilla iOS.release.xcconfig */,
+				9EAF5DF368689F0BF9F7C0B7 /* Pods-Atencion Corilla iOSTests.debug.xcconfig */,
+				5EBCEA9C19EC2F48D8717B15 /* Pods-Atencion Corilla iOSTests.release.xcconfig */,
+				BE7D1F655CD4F3EFB4DB31DC /* Pods-Atencion Corilla iOSUITests.debug.xcconfig */,
+				C441120F0674293C9ED25C63 /* Pods-Atencion Corilla iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6E4C5302217CD0BF002CE7C1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				6E4C5322217CD0C3002CE7C1 /* Atencion Corilla iOSTests */,
 				6E4C532D217CD0C3002CE7C1 /* Atencion Corilla iOSUITests */,
 				6E4C530C217CD0C0002CE7C1 /* Products */,
+				577EBA7E740AE8558B1E841D /* Pods */,
+				3155D4832D96394C1B15BF5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +148,10 @@
 				6E4C5312217CD0C0002CE7C1 /* Main.storyboard */,
 				6E4C5315217CD0C3002CE7C1 /* Assets.xcassets */,
 				6E4C5317217CD0C3002CE7C1 /* LaunchScreen.storyboard */,
+				6EAD4D1E217E2BBF0013D821 /* GoogleService-Info.plist */,
 				6E4C531A217CD0C3002CE7C1 /* Info.plist */,
+				6E973386217EC70100AE4834 /* ViewController2.swift */,
+				6E973388217EC95900AE4834 /* ViewController3.swift */,
 			);
 			path = "Atencion Corilla iOS";
 			sourceTree = "<group>";
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4C5333217CD0C3002CE7C1 /* Build configuration list for PBXNativeTarget "Atencion Corilla iOS" */;
 			buildPhases = (
+				7EAEC8DF1E2AC4AE04D7294B /* [CP] Check Pods Manifest.lock */,
 				6E4C5307217CD0C0002CE7C1 /* Sources */,
 				6E4C5308217CD0C0002CE7C1 /* Frameworks */,
 				6E4C5309217CD0C0002CE7C1 /* Resources */,
+				08A8078BDF7C594A10E104C8 /* [CP] Embed Pods Frameworks */,
+				45A992887226C8F9B41E4799 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4C5336217CD0C3002CE7C1 /* Build configuration list for PBXNativeTarget "Atencion Corilla iOSTests" */;
 			buildPhases = (
+				A39BD34440C81A1A6570848B /* [CP] Check Pods Manifest.lock */,
 				6E4C531B217CD0C3002CE7C1 /* Sources */,
 				6E4C531C217CD0C3002CE7C1 /* Frameworks */,
 				6E4C531D217CD0C3002CE7C1 /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4C5339217CD0C3002CE7C1 /* Build configuration list for PBXNativeTarget "Atencion Corilla iOSUITests" */;
 			buildPhases = (
+				4BBC9F2539EEE39815A43FC6 /* [CP] Check Pods Manifest.lock */,
 				6E4C5326217CD0C3002CE7C1 /* Sources */,
 				6E4C5327217CD0C3002CE7C1 /* Frameworks */,
 				6E4C5328217CD0C3002CE7C1 /* Resources */,
@@ -230,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4C5319217CD0C3002CE7C1 /* LaunchScreen.storyboard in Resources */,
+				6EAD4D1F217E2BBF0013D821 /* GoogleService-Info.plist in Resources */,
 				6E4C5316217CD0C3002CE7C1 /* Assets.xcassets in Resources */,
 				6E4C5314217CD0C0002CE7C1 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +306,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A8078BDF7C594A10E104C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A992887226C8F9B41E4799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atencion Corilla iOS/Pods-Atencion Corilla iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBC9F2539EEE39815A43FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atencion Corilla iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EAEC8DF1E2AC4AE04D7294B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atencion Corilla iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39BD34440C81A1A6570848B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atencion Corilla iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E4C5307217CD0C0002CE7C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +476,8 @@
 			files = (
 				6E4C5311217CD0C0002CE7C1 /* ViewController.swift in Sources */,
 				6E4C530F217CD0C0002CE7C1 /* AppDelegate.swift in Sources */,
+				6E973389217EC95900AE4834 /* ViewController3.swift in Sources */,
+				6E973387217EC70100AE4834 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +650,12 @@
 		};
 		6E4C5334217CD0C3002CE7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9EC526A8618F5C8A6F51DF /* Pods-Atencion Corilla iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Atencion Corilla iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MariaRamos.Atencion-Corilla-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,9 +671,12 @@
 		};
 		6E4C5335217CD0C3002CE7C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BE3E3750DF846967FCF120 /* Pods-Atencion Corilla iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Atencion Corilla iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +684,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MariaRamos.Atencion-Corilla-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +692,7 @@
 		};
 		6E4C5337217CD0C3002CE7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAF5DF368689F0BF9F7C0B7 /* Pods-Atencion Corilla iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +713,7 @@
 		};
 		6E4C5338217CD0C3002CE7C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBCEA9C19EC2F48D8717B15 /* Pods-Atencion Corilla iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +734,7 @@
 		};
 		6E4C533A217CD0C3002CE7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7D1F655CD4F3EFB4DB31DC /* Pods-Atencion Corilla iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +754,7 @@
 		};
 		6E4C533B217CD0C3002CE7C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C441120F0674293C9ED25C63 /* Pods-Atencion Corilla iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
